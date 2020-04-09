@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Class</name>
+        <order>100</order>
+        <roles>x_314719_kiwi.tutor</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 04:31:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e45592f9074890103032f1d08c1ed016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_app_application_e45592f9074890103032f1d08c1ed016</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 04:31:22</sys_updated_on>
+        <title>Class</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_app_application_e45592f9074890103032f1d08c1ed016</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Class</name><order>100</order><roles>x_314719_kiwi.tutor</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 04:31:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e45592f9074890103032f1d08c1ed016</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Class</sys_name><sys_overrides/><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_app_application_e45592f9074890103032f1d08c1ed016</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 04:31:22</sys_updated_on><title>Class</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1044478945</payload_hash>
+        <record_name>Class</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 04:31:23</sys_created_on>
+        <sys_id>a855d6f9074890103032f1d08c1ed0ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715d34f1a60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 04:31:23</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>e055d6f980489010590741ef74cbdcee</update_guid>
+        <update_guid_history>e055d6f980489010590741ef74cbdcee:1044478945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Class">2fb6a239078890103032f1d08c1ed027</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 05:47:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>39c1586eaa954253ae5d008d5cc700c9</sys_id>
+        <sys_metadata>e45592f9074890103032f1d08c1ed016</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_app_application_e45592f9074890103032f1d08c1ed016</sys_update_name>
+        <sys_update_version display_value="sys_app_application_e45592f9074890103032f1d08c1ed016">a855d6f9074890103032f1d08c1ed0ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 05:47:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

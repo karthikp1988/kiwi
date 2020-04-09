@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for all fields in x_314719_kiwi_student_request, for users with role admin.</description>
+        <name>x_314719_kiwi_student_request.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 04:04:06</sys_created_on>
+        <sys_id>6af2cd2d078850103032f1d08c1ed0eb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_314719_kiwi_student_request.*</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_security_acl_6af2cd2d078850103032f1d08c1ed0eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 04:14:07</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_security_acl_6af2cd2d078850103032f1d08c1ed0eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow write for all fields in x_314719_kiwi_student_request, for users with role admin.</description><name>x_314719_kiwi_student_request.*</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-08 04:04:06</sys_created_on><sys_id>6af2cd2d078850103032f1d08c1ed0eb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_314719_kiwi_student_request.*</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_security_acl_6af2cd2d078850103032f1d08c1ed0eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-08 04:14:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1190813518</payload_hash>
+        <record_name>x_314719_kiwi_student_request.*</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 04:14:07</sys_created_on>
+        <sys_id>4ec78ded078850103032f1d08c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17157fec86b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 04:14:07</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c6c78ded9f88501016e3a1fa39aa7146</update_guid>
+        <update_guid_history>c6c78ded9f88501016e3a1fa39aa7146:-1190813518,39a501ed098850106986ae5dbdfe61d4:528277515,d775cd6df28850107c5b9e66aa2dfcc4:-161352128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 04:16:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1b1faafc5eb74b918b6ea821b9b0d5d1</sys_id>
+        <sys_metadata>6af2cd2d078850103032f1d08c1ed0eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_student_request.*</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="x_314719_kiwi_student_request">3fd6ecc107c010103032f1d08c1ed0b5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6af2cd2d078850103032f1d08c1ed0eb</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6af2cd2d078850103032f1d08c1ed0eb">4ec78ded078850103032f1d08c1ed046</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 04:16:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

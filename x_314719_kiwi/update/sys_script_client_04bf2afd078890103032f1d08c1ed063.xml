@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>start_date_time</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Add 1 Hour</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+  var startdatetime = g_form.getValue('start_date_time');                /* Get the Start Date Value From The form*/
+var ga = new GlideAjax('addTime');                                 /* Ajax Call Script Include Name is addMinutes*/
+ga.addParam('sysparm_name','addHour');                                /* 1st parametere Function Name , here addTime*/
+ga.addParam('sysparm_start_date_time',startdatetime);                 /* 2nd parametere startdatetime object as input*/
+ga.getXML(addMinuteParse);                                           /* Using Call back function to get the result*/
+	
+	
+ 
+function addMinuteParse(response) {
+	
+    var enddate= response.responseXML.getElementsByTagName("enddatetime");
+	var enddatetime = enddate[0].getAttribute("value");
+
+	g_form.setValue('end_date_time',enddatetime);  
+  
+                                         }
+   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 06:27:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04bf2afd078890103032f1d08c1ed063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add 1 Hour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_script_client_04bf2afd078890103032f1d08c1ed063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 06:27:35</sys_updated_on>
+        <table>x_314719_kiwi_lesson</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

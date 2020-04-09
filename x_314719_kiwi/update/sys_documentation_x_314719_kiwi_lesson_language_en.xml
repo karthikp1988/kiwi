@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="language" label="Language" language="en" table="x_314719_kiwi_lesson">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <help/>
+            <hint/>
+            <label>Language</label>
+            <language>en</language>
+            <name>x_314719_kiwi_lesson</name>
+            <plural>Languages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 06:20:03</sys_created_on>
+            <sys_id>2c3e26bd078890103032f1d08c1ed0b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Language</sys_name>
+            <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+            <sys_update_name>sys_documentation_x_314719_kiwi_lesson_language_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 06:20:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

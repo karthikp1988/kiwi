@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_314719_kiwi_lessons</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:30:55</sys_created_on>
+        <sys_id>ccb2e7a5078090103032f1d08c1ed006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_lessons</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>ua_table_licensing_config_ccb2e7a5078090103032f1d08c1ed006</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:30:55</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>ua_table_licensing_config_ccb2e7a5078090103032f1d08c1ed006</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_314719_kiwi_lessons</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-08 15:30:55</sys_created_on><sys_id>ccb2e7a5078090103032f1d08c1ed006</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_314719_kiwi_lessons</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>ua_table_licensing_config_ccb2e7a5078090103032f1d08c1ed006</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-08 15:30:55</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-668032711</payload_hash>
+        <record_name>x_314719_kiwi_lessons</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:30:55</sys_created_on>
+        <sys_id>ccb2e7a5078090103032f1d08c1ed008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715a6a685f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:30:55</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>08b2e7a55c809010f6220f9bce5e6e08</update_guid>
+        <update_guid_history>08b2e7a55c809010f6220f9bce5e6e08:-668032711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 05:55:39</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>3f9037f9fa3b42f0ad69d7b77e71cda9</sys_id>
+        <sys_metadata>ccb2e7a5078090103032f1d08c1ed006</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_lessons</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_ccb2e7a5078090103032f1d08c1ed006</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_ccb2e7a5078090103032f1d08c1ed006">ccb2e7a5078090103032f1d08c1ed008</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 05:55:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

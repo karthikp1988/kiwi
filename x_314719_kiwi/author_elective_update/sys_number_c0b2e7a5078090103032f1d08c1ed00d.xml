@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_314719_kiwi_lessons">x_314719_kiwi_lessons</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LES</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:30:55</sys_created_on>
+        <sys_id>c0b2e7a5078090103032f1d08c1ed00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LES</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_number_c0b2e7a5078090103032f1d08c1ed00d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:30:55</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_number_c0b2e7a5078090103032f1d08c1ed00d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_314719_kiwi_lessons">x_314719_kiwi_lessons</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>LES</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-08 15:30:55</sys_created_on><sys_id>c0b2e7a5078090103032f1d08c1ed00d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LES</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_number_c0b2e7a5078090103032f1d08c1ed00d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-08 15:30:55</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>651686873</payload_hash>
+        <record_name>LES</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:30:55</sys_created_on>
+        <sys_id>08b2e7a5078090103032f1d08c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715a6a6a480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:30:55</sys_updated_on>
+        <type>Number</type>
+        <update_guid>40b2e7a5ad809010deb83c945a3b5d39</update_guid>
+        <update_guid_history>40b2e7a5ad809010deb83c945a3b5d39:651686873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 05:55:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>1b358798fa7c4ae2b00b3df9af1c5944</sys_id>
+        <sys_metadata>c0b2e7a5078090103032f1d08c1ed00d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LES</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="">f63263a5078090103032f1d08c1ed0d6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_number_c0b2e7a5078090103032f1d08c1ed00d</sys_update_name>
+        <sys_update_version display_value="sys_number_c0b2e7a5078090103032f1d08c1ed00d">08b2e7a5078090103032f1d08c1ed039</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 05:55:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

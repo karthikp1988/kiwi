@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sales" max_length="40" name="x_314719_kiwi_sales" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="hindi" label="Language" max_length="40" name="language" read_only="true" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="French" sequence="0" value="french"/>
+                <element inactive_on_update="false" label="Hindi" sequence="1" value="hindi"/>
+            </choice>
+        </element>
+        <element label="Lesson Subscription" max_length="40" name="lesson_subscription" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="0" label="Price" max_length="20" name="price" type="price"/>
+        <element attributes="encode_utf8=false" label="Request Number" max_length="32" name="request_number" read_only="true" reference="x_314719_kiwi_student_request" type="reference"/>
+        <element label="Student" max_length="32" name="student" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Tutor" max_length="32" name="tutor" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="request_number"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+        <index name="index3">
+            <element name="tutor"/>
+        </index>
+    </element>
+</database>

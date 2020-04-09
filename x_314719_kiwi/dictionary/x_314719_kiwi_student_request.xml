@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student Request" max_length="40" name="x_314719_kiwi_student_request" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="none" label="Conflict Status" max_length="40" name="conflict_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="You Can Schedule" sequence="0" value="schedule"/>
+                <element inactive_on_update="false" label="You Can't Schedule" sequence="1" value="cannot_schedule"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="none"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End Date Time" max_length="40" name="end_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="french" label="Language" max_length="40" name="language" type="string">
+            <choice>
+                <element inactive_on_update="false" label="French" sequence="0" value="french"/>
+                <element inactive_on_update="false" label="Hindi" sequence="1" value="hindi"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested For" max_length="32" name="requested_for" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Request Status" max_length="40" name="request_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="1" value="scheduled"/>
+                <element inactive_on_update="false" label="Fullfilled" sequence="2" value="fullfilled"/>
+                <element inactive_on_update="false" label="Abandoned" sequence="3" value="abandoned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start Date Time" max_length="40" name="start_date_time" type="glide_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Schedule" max_length="40" name="u_boolean_1" type="boolean"/>
+        <index name="index">
+            <element name="requested_for"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

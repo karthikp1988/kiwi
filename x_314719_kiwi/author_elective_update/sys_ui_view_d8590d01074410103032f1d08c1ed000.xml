@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>teacher</name>
+        <roles>x_314719_kiwi.tutor,admin</roles>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-06 15:03:52</sys_created_on>
+        <sys_id>d8590d01074410103032f1d08c1ed000</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Teacher</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_ui_view_d8590d01074410103032f1d08c1ed000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 09:44:34</sys_updated_on>
+        <title>Teacher</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_ui_view_d8590d01074410103032f1d08c1ed000</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>teacher</name><roles>x_314719_kiwi.tutor,admin</roles><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-06 15:03:52</sys_created_on><sys_id>d8590d01074410103032f1d08c1ed000</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Teacher</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_ui_view_d8590d01074410103032f1d08c1ed000</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 09:44:34</sys_updated_on><title>Teacher</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-1954458959</payload_hash>
+        <record_name>Teacher</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 09:44:34</sys_created_on>
+        <sys_id>1c0ddf71074c90103032f1d08c1ed00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715e53ada60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 09:44:34</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>540ddf714d4c9010fe470f6783c42d0d</update_guid>
+        <update_guid_history>540ddf714d4c9010fe470f6783c42d0d:-1954458959,04dc13711a4c9010eaf8f1d48461b4e4:2018667022,10590d01b2441010f761edcdd3bb5f02:1317947328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 09:45:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>44afa8fa80fe4540a51168f8ab1294e4</sys_id>
+        <sys_metadata>d8590d01074410103032f1d08c1ed000</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teacher</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_ui_view_d8590d01074410103032f1d08c1ed000</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_d8590d01074410103032f1d08c1ed000">1c0ddf71074c90103032f1d08c1ed00d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 09:45:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

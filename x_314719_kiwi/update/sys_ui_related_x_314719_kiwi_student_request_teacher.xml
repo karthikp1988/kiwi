@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_314719_kiwi_student_request" version="2" view="Teacher">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Student Request - Teacher" name="x_314719_kiwi_student_request" related_list="NULL" sys_domain="global" view="2d7d57b1074c90103032f1d08c1ed0d7">85737bb1078c90103032f1d08c1ed025</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:c80411dd070050103032f1d08c1ed0b6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 11:22:38</sys_created_on>
+            <sys_id>c1737bb1078c90103032f1d08c1ed026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 11:22:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Student Request - Teacher" name="x_314719_kiwi_student_request" related_list="NULL" sys_domain="global" view="2d7d57b1074c90103032f1d08c1ed0d7">85737bb1078c90103032f1d08c1ed025</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_314719_kiwi_sales.request_number</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 11:22:38</sys_created_on>
+            <sys_id>c5737bb1078c90103032f1d08c1ed026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 11:22:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Student Request - Teacher" name="x_314719_kiwi_student_request" related_list="NULL" sys_domain="global" view="2d7d57b1074c90103032f1d08c1ed0d7">85737bb1078c90103032f1d08c1ed025</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:150abeb507c890103032f1d08c1ed0cf</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 11:22:38</sys_created_on>
+            <sys_id>c9737bb1078c90103032f1d08c1ed026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 11:22:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Student Request - Teacher</calculated_name>
+            <filter/>
+            <name>x_314719_kiwi_student_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 11:22:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85737bb1078c90103032f1d08c1ed025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Student Request - Teacher</sys_name>
+            <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+            <sys_update_name>sys_ui_related_x_314719_kiwi_student_request_Teacher</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 11:22:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Teacher" name="Teacher">2d7d57b1074c90103032f1d08c1ed0d7</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

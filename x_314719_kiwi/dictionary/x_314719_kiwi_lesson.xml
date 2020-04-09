@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Lesson" max_length="40" name="x_314719_kiwi_lesson" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="none" label="Conflict Satus" max_length="40" name="conflict_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="You Can Schedule" sequence="0" value="schedule"/>
+                <element inactive_on_update="false" label="You Can't Schedule" sequence="1" value="cannot_schedule"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="none"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End Date Time" max_length="40" name="end_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="hindi" label="Language" max_length="40" name="language" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hindi" sequence="0" value="hindi"/>
+                <element inactive_on_update="false" label="French" sequence="1" value="french"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="none" label="Lesson Status" max_length="40" name="lesson_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="scheduled"/>
+                <element inactive_on_update="false" label="Fulfilled" sequence="1" value="fulfilled"/>
+                <element inactive_on_update="false" label="Abandoned" sequence="2" value="abandoned"/>
+                <element inactive_on_update="false" label="None" sequence="3" value="none"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Sales Number" max_length="32" name="sales_number" read_only="true" reference="x_314719_kiwi_sales" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date Time" max_length="40" name="start_date_time" type="glide_date_time"/>
+        <element label="Student" max_length="32" name="student" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Tutor" max_length="32" name="tutor" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="sales_number"/>
+        </index>
+        <index name="index3">
+            <element name="tutor"/>
+        </index>
+    </element>
+</database>

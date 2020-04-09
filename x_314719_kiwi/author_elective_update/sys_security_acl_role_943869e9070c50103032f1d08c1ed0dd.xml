@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 06:37:01</sys_created_on>
+        <sys_id>943869e9070c50103032f1d08c1ed0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.admin</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_security_acl display_value="">0f2869e9070c50103032f1d08c1ed0d7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_943869e9070c50103032f1d08c1ed0dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 06:37:01</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_security_acl_role_943869e9070c50103032f1d08c1ed0dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-08 06:37:01</sys_created_on><sys_id>943869e9070c50103032f1d08c1ed0dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.admin</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_security_acl display_value="">0f2869e9070c50103032f1d08c1ed0d7</sys_security_acl><sys_update_name>sys_security_acl_role_943869e9070c50103032f1d08c1ed0dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-08 06:37:01</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>462693701</payload_hash>
+        <record_name>.admin</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 06:37:01</sys_created_on>
+        <sys_id>d778252d070c50103032f1d08c1ed0fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17158819c9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 06:37:01</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>1378252dc20c501098a674bfadb4e4fe</update_guid>
+        <update_guid_history>1378252dc20c501098a674bfadb4e4fe:462693701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".admin">1ff4f1a5074c50103032f1d08c1ed0c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 07:31:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>002324897a544f6f8006aa41011a0489</sys_id>
+        <sys_metadata>943869e9070c50103032f1d08c1ed0dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.admin</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_943869e9070c50103032f1d08c1ed0dd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_943869e9070c50103032f1d08c1ed0dd">d778252d070c50103032f1d08c1ed0fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 07:31:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

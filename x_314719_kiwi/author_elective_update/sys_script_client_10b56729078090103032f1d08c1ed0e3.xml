@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>I am using a client script to autocomplete Student Tutor and Language Fields from Request Number.</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Autocomplete Student Tutor &amp; Language </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+    var recordid= g_form.getDisplayBox("sales_number").value;
+	
+
+	
+  var ga = new GlideAjax('getDetails');
+  ga.addParam('sysparm_name','getStudentTutorLesson');
+  ga.addParam('sysparm_id',recordid);
+  ga.getXML(AutocompleteParse);
+	
+  function AutocompleteParse(response) {
+	
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+    
+	var result = JSON.parse(answer);
+	var tutor = result.tutor; 
+	var student = result.student; 
+	var language = result.language;
+    g_form.setValue('tutor', tutor); 
+	g_form.setValue('student', student); 
+	g_form.setValue('language', language); 
+  
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:45:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10b56729078090103032f1d08c1ed0e3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Autocomplete Student Tutor &amp; Language </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_script_client_10b56729078090103032f1d08c1ed0e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:50:46</sys_updated_on>
+        <table>x_314719_kiwi_lessons</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_script_client_10b56729078090103032f1d08c1ed0e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;I am using a client script to autocomplete Student Tutor and Language Fields from Request Number.&lt;/description&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Autocomplete Student Tutor &amp;amp; Language &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+    var recordid= g_form.getDisplayBox("sales_number").value;
+	
+
+	
+  var ga = new GlideAjax('getDetails');
+  ga.addParam('sysparm_name','getStudentTutorLesson');
+  ga.addParam('sysparm_id',recordid);
+  ga.getXML(AutocompleteParse);
+	
+  function AutocompleteParse(response) {
+	
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+    
+	var result = JSON.parse(answer);
+	var tutor = result.tutor; 
+	var student = result.student; 
+	var language = result.language;
+    g_form.setValue('tutor', tutor); 
+	g_form.setValue('student', student); 
+	g_form.setValue('language', language); 
+  
+  }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-08 15:45:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;10b56729078090103032f1d08c1ed0e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autocomplete Student Tutor &amp;amp; Language &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Kiwi" source="x_314719_kiwi"&gt;9076e0c107c010103032f1d08c1ed0a7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kiwi"&gt;9076e0c107c010103032f1d08c1ed0a7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_10b56729078090103032f1d08c1ed0e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-08 15:50:46&lt;/sys_updated_on&gt;&lt;table&gt;x_314719_kiwi_lessons&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1098525062</payload_hash>
+        <record_name>Autocomplete Student Tutor &amp; Language </record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:50:46</sys_created_on>
+        <sys_id>4f372f69078090103032f1d08c1ed097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715a7c979f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:50:46</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>87372f69b1809010c6d1d2d4be4d8497</update_guid>
+        <update_guid_history>87372f69b1809010c6d1d2d4be4d8497:-1098525062,09e66b69d0809010168ac458e55cb6b8:-1582631977,98062b2919809010efe89aae2254ca51:1365858815,13e56f29ef80901090e84b7da9a09468:1901614567</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 05:42:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8f4ab362b36a4d64a9ec559d14673f84</sys_id>
+        <sys_metadata>10b56729078090103032f1d08c1ed0e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autocomplete Student Tutor &amp; Language </sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="">f63263a5078090103032f1d08c1ed0d6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_script_client_10b56729078090103032f1d08c1ed0e3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_10b56729078090103032f1d08c1ed0e3">4f372f69078090103032f1d08c1ed097</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 05:42:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_314719_kiwi_student_request</basic_apply_to>
+        <basic_query_from>user_calendar_event</basic_query_from>
+        <insert_callback/>
+        <name>Tutor Introduction Calendar</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+var starttime = new GlideDateTime();
+starttime = current.start_date_time;
+current.addQuery('user', parent.assigned_to);
+current.addQuery(starttime, parent.start_date_time);
+})(current, parent);]]></query_with>
+        <reference_field>task</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 10:36:17</sys_created_on>
+        <sys_id>0b0559dd070050103032f1d08c1ed09d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Tutor Introduction Calendar</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_relationship_0b0559dd070050103032f1d08c1ed09d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 15:16:17</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=0b0559dd070050103032f1d08c1ed09d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_relationship_0b0559dd070050103032f1d08c1ed09d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_314719_kiwi_student_request&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;user_calendar_event&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Tutor Introduction Calendar&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+var starttime = new GlideDateTime();
+starttime = current.start_date_time;
+current.addQuery('user', parent.assigned_to);
+current.addQuery(starttime, parent.start_date_time);
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;task&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-07 10:36:17&lt;/sys_created_on&gt;&lt;sys_id&gt;0b0559dd070050103032f1d08c1ed09d&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tutor Introduction Calendar&lt;/sys_name&gt;&lt;sys_package display_value="Kiwi" source="x_314719_kiwi"&gt;9076e0c107c010103032f1d08c1ed0a7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kiwi"&gt;9076e0c107c010103032f1d08c1ed0a7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_0b0559dd070050103032f1d08c1ed09d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-07 15:16:17&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0b0559dd070050103032f1d08c1ed09d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1547380772</payload_hash>
+        <record_name>Tutor Introduction Calendar</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 15:16:17</sys_created_on>
+        <sys_id>48c5d29907c050103032f1d08c1ed070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715536a88a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 15:16:17</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>80c5d299c2c050108202a908c7e81d70</update_guid>
+        <update_guid_history>80c5d299c2c050108202a908c7e81d70:-1547380772,731a5115af405010df21f6b24111ceff:-1250254026,b00a5dd19740501064e2a3251d6daaed:591707514,9219dd91ff405010bcfed8680656a7a5:-516472302,d9f615510f40501056e7105cd386b6f2:-2107590074,aea5d111f140501043075d4ded8659bf:-712565339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 15:20:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>0ba21a095537404881011bdb03fc0710</sys_id>
+        <sys_metadata>0b0559dd070050103032f1d08c1ed09d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tutor Introduction Calendar</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="Student Request">42a66cc107c010103032f1d08c1ed05c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_relationship_0b0559dd070050103032f1d08c1ed09d</sys_update_name>
+        <sys_update_version display_value="sys_relationship_0b0559dd070050103032f1d08c1ed09d">48c5d29907c050103032f1d08c1ed070</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 15:20:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

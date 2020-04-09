@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>This access control allows only admin role indiviual to edit assigned to field - By default all fields  are writable for users with tutor role,  with this access control we are making it exclusive to admin users, therefore Tutor role will have this read only.&#13;
+&#13;
+</description>
+        <name>x_314719_kiwi_student_request.assigned_to</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-06 16:43:55</sys_created_on>
+        <sys_id>f94f1d81078410103032f1d08c1ed0a2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_314719_kiwi_student_request.assigned_to</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_security_acl_f94f1d81078410103032f1d08c1ed0a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 06:32:33</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_security_acl_f94f1d81078410103032f1d08c1ed0a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>This access control allows only admin role indiviual to edit assigned to field - By default all fields  are writable for users with tutor role,  with this access control we are making it exclusive to admin users, therefore Tutor role will have this read only.&#13;
+&#13;
+</description><name>x_314719_kiwi_student_request.assigned_to</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-06 16:43:55</sys_created_on><sys_id>f94f1d81078410103032f1d08c1ed0a2</sys_id><sys_mod_count>8</sys_mod_count><sys_name>x_314719_kiwi_student_request.assigned_to</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_security_acl_f94f1d81078410103032f1d08c1ed0a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-08 06:32:33</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1772710125</payload_hash>
+        <record_name>x_314719_kiwi_student_request.assigned_to</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 06:32:33</sys_created_on>
+        <sys_id>ca77a9a9070c50103032f1d08c1ed0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171587d86ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 06:32:33</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>4677a9a95a0c50100b42f37b2c24fcae</update_guid>
+        <update_guid_history>4677a9a95a0c50100b42f37b2c24fcae:-1772710125,100515e9fbc85010e4c41fcca84c6632:1517009995,859ec5a57ac8501025229f596eedb0ac:382243856,c9edcd65c0c85010f09f9d9df699e82c:-1255351679,b5dc05653dc85010fd6f2f3816c4d626:266738205,4657bbc5430c10101e1062a3568e0ae5:723403381,a33a2dc9ea841010e261add2fa5e2353:1100815558,f1c1ed051f84101019e27d6c1a73ffde:1406567118,0a30a5c112841010461fe9d0ca0644c0:-1981974656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 07:34:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>16c51ecd6f674517abddce9d5c7b2e61</sys_id>
+        <sys_metadata>f94f1d81078410103032f1d08c1ed0a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_student_request.assigned_to</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="Assigned To">32caa88507c010103032f1d08c1ed0e4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f94f1d81078410103032f1d08c1ed0a2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f94f1d81078410103032f1d08c1ed0a2">ca77a9a9070c50103032f1d08c1ed0ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 07:34:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

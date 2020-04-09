@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>This access control allows only admin role indiviual to edit Requested For field - By default all fields  are writable for users with tutor role,  with this access control we are making it exclusive to admin users, therefore Tutor role will have this read only.&#13;
+&#13;
+The request status field should be aslo other than requested.</description>
+        <name>x_314719_kiwi_student_request.requested_for</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 05:23:14</sys_created_on>
+        <sys_id>e867956d07c850103032f1d08c1ed082</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_student_request.requested_for</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_security_acl_e867956d07c850103032f1d08c1ed082</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 05:23:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_security_acl_e867956d07c850103032f1d08c1ed082</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>This access control allows only admin role indiviual to edit Requested For field - By default all fields  are writable for users with tutor role,  with this access control we are making it exclusive to admin users, therefore Tutor role will have this read only.&#13;
+&#13;
+The request status field should be aslo other than requested.</description><name>x_314719_kiwi_student_request.requested_for</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-08 05:23:14</sys_created_on><sys_id>e867956d07c850103032f1d08c1ed082</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_314719_kiwi_student_request.requested_for</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_security_acl_e867956d07c850103032f1d08c1ed082</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-08 05:23:14</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1420453884</payload_hash>
+        <record_name>x_314719_kiwi_student_request.requested_for</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 05:23:14</sys_created_on>
+        <sys_id>6297596d07c850103032f1d08c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171583e0fc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 05:23:14</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>aa97596de0c8501039511c17a6b32231</update_guid>
+        <update_guid_history>aa97596de0c8501039511c17a6b32231:1420453884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 06:14:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3e6eed06da6e4cf8a5de78a9bd09d781</sys_id>
+        <sys_metadata>e867956d07c850103032f1d08c1ed082</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_student_request.requested_for</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="Requested For">32caa88507c010103032f1d08c1ed0dc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e867956d07c850103032f1d08c1ed082</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e867956d07c850103032f1d08c1ed082">6297596d07c850103032f1d08c1ed032</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 06:14:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_314719_kiwi.addTime</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>addTime</name>
+        <script><![CDATA[var addTime = Class.create();
+addTime.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	addMinutes : function (){
+		
+    var startdatetime = new GlideDateTime();
+	startdatetime = this.getParameter('sysparm_start_date_time');
+	var endtime = new GlideDateTime(startdatetime);
+	endtime.addSeconds(1200);
+    var enddatetime = this.newItem("enddatetime"); enddatetime.setAttribute("value", endtime);
+	return enddatetime;   },
+
+	
+	
+	addHour : function (){
+		
+    var startdatetime = new GlideDateTime();
+	startdatetime = this.getParameter('sysparm_start_date_time');
+	var endtime = new GlideDateTime(startdatetime);
+	endtime.addSeconds(3600);
+    var enddatetime = this.newItem("enddatetime"); enddatetime.setAttribute("value", endtime);
+	return enddatetime;   },
+	
+
+    type: 'addTime'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-06 13:17:54</sys_created_on>
+        <sys_id>8df0bcc907c010103032f1d08c1ed0e7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>addTime</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_script_include_8df0bcc907c010103032f1d08c1ed0e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 02:57:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

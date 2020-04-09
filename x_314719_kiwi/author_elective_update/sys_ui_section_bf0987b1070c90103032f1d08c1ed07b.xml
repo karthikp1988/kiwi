@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="bf0987b1070c90103032f1d08c1ed07b" sys_domain="global" table="x_314719_kiwi_lesson" version="3" view="Teacher">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>7f0987b1070c90103032f1d08c1ed080</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sales_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>f30987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tutor</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>770987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>f70987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>7b0987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>fb0987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conflict_status</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>7f0987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date_time</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>ff0987b1070c90103032f1d08c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date_time</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>730987b1070c90103032f1d08c1ed082</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lesson_status</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_id>f30987b1070c90103032f1d08c1ed082</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_314719_kiwi_lesson</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf0987b1070c90103032f1d08c1ed07b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_314719_kiwi_lesson</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+            <sys_update_name>sys_ui_section_bf0987b1070c90103032f1d08c1ed07b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Teacher" name="teacher">d8590d01074410103032f1d08c1ed000</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_ui_section_bf0987b1070c90103032f1d08c1ed07b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="bf0987b1070c90103032f1d08c1ed07b" sys_domain="global" table="x_314719_kiwi_lesson" version="3" view="Teacher"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>7f0987b1070c90103032f1d08c1ed080</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sales_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>f30987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tutor</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>770987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>student</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>f70987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>language</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>7b0987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>fb0987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>conflict_status</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>7f0987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>start_date_time</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>ff0987b1070c90103032f1d08c1ed081</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>end_date_time</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>730987b1070c90103032f1d08c1ed082</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>lesson_status</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_id>f30987b1070c90103032f1d08c1ed082</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_lesson" sys_domain="global" view="d8590d01074410103032f1d08c1ed000">bf0987b1070c90103032f1d08c1ed07b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_314719_kiwi_lesson</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 08:17:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bf0987b1070c90103032f1d08c1ed07b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_314719_kiwi_lesson</sys_name><sys_overrides/><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_ui_section_bf0987b1070c90103032f1d08c1ed07b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 08:17:25</sys_updated_on><sys_user/><title>false</title><view display_value="Teacher" name="teacher">d8590d01074410103032f1d08c1ed000</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2089120370</payload_hash>
+        <record_name>Lesson</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 08:17:25</sys_created_on>
+        <sys_id>f70987b1070c90103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715e03e3ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 08:17:25</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>730987b1820c9010dfccdd528f872084</update_guid>
+        <update_guid_history>730987b1820c9010dfccdd528f872084:-2089120370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 09:45:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>bc024bfa15f147ccac3d9d6828c49949</sys_id>
+        <sys_metadata>bf0987b1070c90103032f1d08c1ed07b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_lesson</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="Lesson">489a6af9078890103032f1d08c1ed025</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_bf0987b1070c90103032f1d08c1ed07b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_bf0987b1070c90103032f1d08c1ed07b">f70987b1070c90103032f1d08c1ed084</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 09:45:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
