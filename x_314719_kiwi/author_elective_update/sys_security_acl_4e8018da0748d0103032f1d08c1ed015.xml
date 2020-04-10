@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>The ability to read conflict status field is only given to admin role individuals</description>
+        <name>x_314719_kiwi_lesson.conflict_status</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 08:08:57</sys_created_on>
+        <sys_id>4e8018da0748d0103032f1d08c1ed015</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_314719_kiwi_lesson.conflict_status</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_security_acl_4e8018da0748d0103032f1d08c1ed015</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 13:38:54</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_security_acl_4e8018da0748d0103032f1d08c1ed015</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>The ability to read conflict status field is only given to admin role individuals</description><name>x_314719_kiwi_lesson.conflict_status</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-10 08:08:57</sys_created_on><sys_id>4e8018da0748d0103032f1d08c1ed015</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_314719_kiwi_lesson.conflict_status</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_security_acl_4e8018da0748d0103032f1d08c1ed015</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-10 13:38:54</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-880453223</payload_hash>
+        <record_name>x_314719_kiwi_lesson.conflict_status</record_name>
+        <reverted_from/>
+        <source>7831fc8a0700d0103032f1d08c1ed052</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 13:38:54</sys_created_on>
+        <sys_id>f23c5916074cd0103032f1d08c1ed0be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171645093cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 13:38:54</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>fa3c5916244cd0108cfecc4cf14663bd</update_guid>
+        <update_guid_history>fa3c5916244cd0108cfecc4cf14663bd:-880453223,720cd516c64cd010fc623e94d3fe706e:-69243200,86b4199eb70cd010b0426842a5222378:-1792435204,d9b01412f688d010dcf065b117693270:986605845</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 13:46:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>220e1de24cc44ef88779ad2288da9a10</sys_id>
+        <sys_metadata>4e8018da0748d0103032f1d08c1ed015</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_314719_kiwi_lesson.conflict_status</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="Conflict Satus">643e26bd078890103032f1d08c1ed0c9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_4e8018da0748d0103032f1d08c1ed015</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_4e8018da0748d0103032f1d08c1ed015">f23c5916074cd0103032f1d08c1ed0be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 13:46:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -22,7 +22,7 @@ createMeeting: function() {
 		   var enddate = new GlideDateTime();
            startdate = util.getValue('start_date_time');
 		   enddate = util.getValue('end_date_time');
-		
+		   var number = util.getValue('number');
            
 		   var student = util.getValue('requested_for');
 		   var tutor = util.getValue('assigned_to');
@@ -33,6 +33,7 @@ createMeeting: function() {
 		   sevent.user = student;
 		   sevent.name = 'Introduction';  
 		   sevent.type = 'meeting';
+		   
 		   sevent.start_date_time = startdate;
            sevent.end_date_time = enddate;
 		   sevent.insert();
@@ -134,13 +135,13 @@ createLesson: function() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-07 07:37:26</sys_created_on>
         <sys_id>aa7c6c5107cc10103032f1d08c1ed0d0</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>createEvent</sys_name>
         <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
         <sys_update_name>sys_script_include_aa7c6c5107cc10103032f1d08c1ed0d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-09 06:53:53</sys_updated_on>
+        <sys_updated_on>2020-04-10 03:20:51</sys_updated_on>
     </sys_script_include>
 </record_update>

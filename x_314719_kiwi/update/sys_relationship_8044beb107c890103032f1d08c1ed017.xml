@@ -12,9 +12,21 @@
 	// Add your code here, such as current.addQuery(field, value);
 	
 	//current.addQuery('user', parent.student);
-	current.addQuery('user', parent.tutor);
 	
-	current.addQuery('name', 'Lesson');
+var gdt = new GlideDateTime(parent.start_date_time);	
+gt = gdt.getTime();
+gd = gdt.getDate();
+var day= gt.getByFormat('HHmmss');
+var year= gd.getByFormat('yyyyMMdd');
+var t='T';
+var z='Z';
+var result = year+t+day+z;
+
+current.addQuery('start_date_time',result);
+current.addQuery('user', parent.tutor).addOrCondition('user',parent.student); 
+current.addQuery('name', 'Lesson');
+		
+	
 
 })(current, parent);]]></query_with>
         <reference_field>task</reference_field>
@@ -24,14 +36,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-09 06:48:50</sys_created_on>
         <sys_id>8044beb107c890103032f1d08c1ed017</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Lesson Calendar</sys_name>
         <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
         <sys_update_name>sys_relationship_8044beb107c890103032f1d08c1ed017</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-09 07:07:19</sys_updated_on>
+        <sys_updated_on>2020-04-10 07:11:18</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=8044beb107c890103032f1d08c1ed017"/>
 </record_update>

@@ -28,13 +28,17 @@
         <element attributes="edge_encryption_enabled=true" label="Start Date Time" max_length="40" name="start_date_time" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Schedule" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_2" reference="user_calendar_event" type="reference"/>
         <index name="index">
-            <element name="requested_for"/>
+            <element name="u_reference_2"/>
         </index>
         <index name="index2">
-            <element name="sys_class_name"/>
+            <element name="requested_for"/>
         </index>
         <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index4">
             <element name="assigned_to"/>
         </index>
     </element>

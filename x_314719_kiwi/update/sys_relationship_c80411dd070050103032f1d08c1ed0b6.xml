@@ -5,15 +5,23 @@
         <basic_apply_to>x_314719_kiwi_student_request</basic_apply_to>
         <basic_query_from>user_calendar_event</basic_query_from>
         <insert_callback/>
-        <name>Student Introduction Calendar</name>
+        <name>Introduction Calendar</name>
         <query_from/>
         <query_with><![CDATA[(function refineQuery(current, parent) {
 
 
-current.addQuery('user', parent.requested_for);
-current.addQuery('name', 'Introduction');
-//current.addQuery('start_date_time', '20200528T080910Z');
+var gdt = new GlideDateTime(parent.start_date_time);	
+gt = gdt.getTime();
+gd = gdt.getDate();
+var day= gt.getByFormat('HHmmss');
+var year= gd.getByFormat('yyyyMMdd');
+var t='T';
+var z='Z';
+var result = year+t+day+z;
 
+current.addQuery('start_date_time',result);
+
+current.addQuery('user', parent.requested_for).addOrCondition('user',parent.assigned_to); 
 
 })(current, parent);]]></query_with>
         <reference_field>task</reference_field>
@@ -23,14 +31,14 @@ current.addQuery('name', 'Introduction');
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-07 10:30:42</sys_created_on>
         <sys_id>c80411dd070050103032f1d08c1ed0b6</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_name>Student Introduction Calendar</sys_name>
+        <sys_mod_count>105</sys_mod_count>
+        <sys_name>Introduction Calendar</sys_name>
         <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
         <sys_update_name>sys_relationship_c80411dd070050103032f1d08c1ed0b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-09 07:08:46</sys_updated_on>
+        <sys_updated_on>2020-04-10 06:55:20</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=c80411dd070050103032f1d08c1ed0b6"/>
 </record_update>

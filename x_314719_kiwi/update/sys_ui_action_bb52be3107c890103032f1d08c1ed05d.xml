@@ -45,8 +45,9 @@ function CheckConflictParse(response) {
 	
 	var answer = response.responseXML.documentElement.getAttribute("answer");
     //alert(answer);
-	if(answer =="You Cannot Schedule"){ g_form.setValue('conflict_status','cannot_schedule');g_form.save();}
-	else if(answer =="You Can Schedule"){g_form.setValue('conflict_status','schedule');g_form.save();}
+	if(answer =="You Cannot Schedule"){ 
+		g_form.setValue('conflict_status','cannot_schedule');alert('You can not schedule for this time');g_form.save();}
+	else if(answer =="You Can Schedule"){g_form.setValue('conflict_status','schedule');alert('You can schedule');g_form.save();}
  
 }
 }]]></script>
@@ -60,7 +61,7 @@ function CheckConflictParse(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb52be3107c890103032f1d08c1ed05d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Conflict Check</sys_name>
         <sys_overrides/>
         <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
@@ -68,7 +69,7 @@ function CheckConflictParse(response) {
         <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
         <sys_update_name>sys_ui_action_bb52be3107c890103032f1d08c1ed05d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-09 06:44:07</sys_updated_on>
+        <sys_updated_on>2020-04-10 07:33:57</sys_updated_on>
         <table>x_314719_kiwi_lesson</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
